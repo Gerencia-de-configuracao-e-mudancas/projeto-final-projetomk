@@ -15,3 +15,13 @@ body{
     background-position: center;
     background-repeat: inherit;
 }
+
+p{
+    background-color: black;
+    display: inline-block;
+    color: #C9A227;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-right: 6px solid #A0A0A0;
+    border-left: 6px solid #A0A0A0;
+}
