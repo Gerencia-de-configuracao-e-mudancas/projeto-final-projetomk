@@ -25,3 +25,25 @@ p{
     border-right: 6px solid #A0A0A0;
     border-left: 6px solid #A0A0A0;
 }
+
+h1{
+    display: inline-block;
+    color: #C9A227;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 
+        0px 0px 5px black, 
+        0px 0px 10px black;
+    font-size: xx-large;
+}
+
+h2{
+    display: inline-block;
+    color: #C9A227;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 
+        0px 0px 5px black, 
+        0px 0px 10px black;
+    font-size: xx-large;
+}
