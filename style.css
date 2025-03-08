@@ -4,3 +4,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body{
+    font-family: 'Mortal-Kombat-MK11', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url('MenuMK.jpg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: inherit;
+}
