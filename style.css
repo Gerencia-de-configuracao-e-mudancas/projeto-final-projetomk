@@ -70,3 +70,20 @@ button{
 a{
     display: inline-block;
 }
+
+table{
+    margin: auto;
+    display: block;
+}
+
+.produtoras{
+    text-align: left;
+    display: block;
+    background-color: black;
+    color: #C9A227;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-right: 6px solid #A0A0A0;
+    border-left: 6px solid #A0A0A0;
+}
