@@ -47,3 +47,11 @@ h2{
         0px 0px 10px black;
     font-size: xx-large;
 }
+
+img{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    max-height: 400px;
+    border: 6px solid #404040;
+}
