@@ -1,1 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-J_w3BzQ)
+O objetivo deste repositório é criar um site cujo tema é Mortal Kombat, nele será falado dos jogos, alguns personagens e as produtoras de Mortal Kombat.
+Contribuidores: Samuel Videres do Nascimento, João Paulo Araújo da Silva e Washington Ferreira de Melo Júnior.
+Neste site estão sendo utlizados HTML, CSS e Java Script, feitos no Visual Studio Code.
+Links úteis: 
+Wiki da fandom de MK: https://mortalkombat.fandom.com/pt-br/wiki/Wiki_Mortal_Kombat
+Wikipedia de MK:
+https://pt.wikipedia.org/wiki/Mortal_Kombat
