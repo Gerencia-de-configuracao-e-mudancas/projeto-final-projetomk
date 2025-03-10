@@ -33,3 +33,28 @@ images.forEach(image => {
         document.getElementById(detailId).style.display = 'block';
     });
 });
+
+// Seleciona todos os cartões de personagem e os blocos de detalhes
+const cartoesPersonagem = document.querySelectorAll('.cartao-personagem');
+const detalhesPersonagem = document.querySelectorAll('.detalhes-personagem');
+
+// Adiciona evento de clique em cada cartão de personagem
+cartoesPersonagem.forEach(cartao => {
+    cartao.addEventListener('click', () => {
+        // Remove a classe "selecionado" de todos os cartões
+        cartoesPersonagem.forEach(c => c.classList.remove('selecionado'));
+
+        // Remove a classe "ativo" de todos os blocos de detalhes
+        detalhesPersonagem.forEach(detalhe => detalhe.classList.remove('ativo'));
+
+        // Adiciona a classe "selecionado" ao cartão clicado
+        cartao.classList.add('selecionado');
+
+        // Exibe o bloco de detalhes correspondente ao cartão clicado
+        const idDetalhes = cartao.id.replace('-cartao', '-detalhes');
+        document.getElementById(idDetalhes).classList.add('ativo');
+
+        // Centraliza o cartão selecionado no carrossel
+        cartao.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+    });
+});
